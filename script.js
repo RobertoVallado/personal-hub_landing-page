@@ -8,7 +8,8 @@ const words = [
   "Résolveur de problèmes",
   "Développeur full-stack",
   "Bounty Hunter",
-  "Hacker"
+  "Hacker",
+  "Professeur d'espagnol"
 ];
 
 const typed = document.getElementById("typed");
