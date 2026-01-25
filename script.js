@@ -1,15 +1,14 @@
 const words = [
   "Software Developer",
   "Security Researcher",
-  "Problem Solver",
-  "Développeur logiciel",
+  // "Problem Solver",
+  // "Développeur logiciel",
   "Spécialiste en sécurité",
-  "Adepte du code propre",
-  "Résolveur de problèmes",
+  // "Adepte du code propre",
+  // "Résolveur de problèmes",
   "Développeur full-stack",
-  "Bounty Hunter",
-  "Hacker",
-  "Professeur d'espagnol"
+  // "Bounty Hunter",
+  // "Hacker"
 ];
 
 const typed = document.getElementById("typed");
