@@ -85,7 +85,7 @@ body {
 /* ================================
    CARD CONTENT
 ================================ */
-.container h1 {
+.container h2 {
   margin-top: 0;
   font-size: 2rem;
 }
@@ -189,7 +189,7 @@ footer {
     padding: 24px 16px;
   }
 
-  .container h1 {
+  .container h2 {
     font-size: 1.6rem;
   }
 

@@ -3,24 +3,68 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Registry Hub | Roberto Vallado</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Registry Hub - central index for my projects and subdomains">
 
-    <!-- Open Graph for social sharing -->
-    <meta property="og:title" content="Roberto Vallado — Registry Hub">
-    <meta property="og:description" content="Access my projects, notes, CV, and creative work.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://robertovallado.dev">
+    <title>Roberto Vallado — Software Developer & Security Researcher</title>
+    <meta name="description" content="Roberto Vallado's personal hub — software developer, full-stack engineer, and security researcher. Explore projects, knowledge base, interactive CV, and more." />
+    <meta name="author" content="Roberto Vallado" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://robertovallado.dev/" />
 
+    <!-- Open Graph -->
+    <meta property="og:title" content="Roberto Vallado — Software Developer & Security Researcher" />
+    <meta property="og:description" content="Personal hub for Roberto Vallado's projects, notes, CV, and creative work." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://robertovallado.dev/" />
+    <meta property="og:image" content="https://robertovallado.dev/assets/og-image.png" />
+    <meta property="og:site_name" content="Roberto Vallado" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Roberto Vallado — Software Developer & Security Researcher" />
+    <meta name="twitter:description" content="Personal hub for Roberto Vallado's projects, notes, CV, and creative work." />
+    <meta name="twitter:image" content="https://robertovallado.dev/assets/og-image.png" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
+    <!-- Icons -->
+    <link rel="icon" type="image/x-icon" href="/assets/code.ico">
 
-    <link rel="icon" type="image/x-icon" href="./assets/code.ico">
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://robertovallado.dev/#person",
+          "name": "Roberto Vallado",
+          "url": "https://robertovallado.dev",
+          "jobTitle": "Software Developer",
+          "sameAs": [
+            "https://github.com/RobertoVallado",
+            "https://www.linkedin.com/in/roberto-vallado/",
+            "https://www.instagram.com/vallado_rico"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://robertovallado.dev/#website",
+          "name": "Roberto Vallado — Registry Hub",
+          "url": "https://robertovallado.dev",
+          "description": "Central hub for Roberto Vallado's projects, notes, CV, and creative work.",
+          "author": { "@id": "https://robertovallado.dev/#person" }
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>
@@ -45,7 +89,7 @@
         </header>
 
         <main class="container">
-            <h1>Registry Hub</h1>
+            <h2>Registry Hub</h2>
             <p class="subtitle">
                 From technical notes to creative projects.
             </p>
@@ -74,7 +118,7 @@
                     </a>
                 </li> -->
                 <li>
-                    <a href="https://chess.robertovallado.dev">
+                    <a href="https://chess.robertovallado.dev" target="_blank" rel="noopener noreferrer">
                         ♟️ Chess Coach
                         <span>
                             React chess "coaching" app with real-time move analysis, engine evaluations, and feedback. Mobile-friendly with Tailwind CSS, running entirely in the browser via Stockfish WASM.
@@ -82,7 +126,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://pensez-espagnol.robertovallado.dev">
+                    <a href="https://pensez-espagnol.robertovallado.dev" target="_blank" rel="noopener noreferrer">
                          📝 Apprenez l’espagnol
                         <span>React template built with i18n support.</span>
                     </a>
